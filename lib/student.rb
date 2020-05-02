@@ -7,7 +7,7 @@ class Student < User
 
   def knowledge
     @knowledge = []
-    return knowledge.self
+    return knowledge
   end
 
   def learn(lesson)
